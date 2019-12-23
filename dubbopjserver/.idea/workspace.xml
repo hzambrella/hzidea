@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="234f37ca-93de-4e61-be84-2087fd8d6ed0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../dubbopjapi/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbopjapi/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbopjapi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbopjapi/dubbopjapi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbopjapi/src/main/java/com/hz/dubbopj/api/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbopjserver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbostart/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbostart/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbostart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ideaweb/src/main/java/.idea/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbostart/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbostart/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbostart/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbostart/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbostart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbostart/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbostart/dubbo-server/src/main/java/com/hz/dubbostart/server/ProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbostart/dubbo-server/src/main/java/com/hz/dubbostart/server/ProviderMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbostart/dubbo-server/src/main/resources/dubbo-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbostart/dubbo-server/src/main/resources/dubbo-provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbostart/dubbo-server/target/classes/com/hz/dubbostart/server/ProviderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ideaweb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ideaweb/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\jp_idea\dubbopjserver\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UTm7Fg2BOwH9z3f9DMwx9QC86G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="234f37ca-93de-4e61-be84-2087fd8d6ed0" name="Default Changelist" comment="" />
+      <created>1575388789368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575388789368</updated>
+      <workItem from="1575388793212" duration="262000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

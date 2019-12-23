@@ -1,34 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fd11b89-4829-41e6-974f-530613ad7137" name="Default Changelist" comment="" />
+    <list default="true" id="dc106eb9-b468-4f9a-906a-81595ea323f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/jp_idea.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbopjapi/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbopjapi/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbopjapi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbopjapi/dubbopjapi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbopjapi/src/main/java/com/hz/dubbopj/api/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbopjserver/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbopjserver/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbopjserver/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbopjserver/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbopjserver/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbopjserver/dubbopjserver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ideaweb/src/main/java/.idea/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-server/src/main/java/com/hz/dubbostart/server/ProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-server/src/main/java/com/hz/dubbostart/server/ProviderMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-server/src/main/resources/dubbo-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-server/src/main/resources/dubbo-provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-server/target/classes/com/hz/dubbostart/server/ProviderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ideaweb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ideaweb/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1UQm1qYP4UBl8ossPqiTKudHD3t" />
+  <component name="ProjectId" id="1UTeAR3faoVXy3RGVWHgr4UdccX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Facets" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\idea-jp\dubbostart\dubbo-server\src\main\resources" />
-    </key>
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,10 +62,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProviderTest">
+  <component name="RunManager" selected="Application.DemoClient">
     <configuration name="DemoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hz.dubbostart.client.DemoClient" />
-      <module name="dubboclient" />
+      <module name="dubbo-client" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hz.dubbostart.client.*" />
@@ -56,9 +76,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hz.dubbostart.server.ProviderTest" />
-      <module name="dubboserver" />
+    <configuration name="ProviderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hz.dubbostart.server.ProviderMain" />
+      <module name="dubbo-server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hz.dubbostart.server.*" />
@@ -69,72 +89,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_dubbostart" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="55050" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DemoClient" />
-        <item itemvalue="Application.ProviderTest" />
+        <item itemvalue="Application.ProviderMain" />
       </list>
     </recent_temporary>
   </component>
@@ -143,16 +101,31 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8fd11b89-4829-41e6-974f-530613ad7137" name="Default Changelist" comment="" />
-      <created>1575296980647</created>
+      <changelist id="dc106eb9-b468-4f9a-906a-81595ea323f8" name="Default Changelist" comment="" />
+      <created>1575384868826</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1575296980647</updated>
-      <workItem from="1575296988978" duration="6717000" />
+      <updated>1575384868826</updated>
+      <workItem from="1575384870650" duration="166000" />
+      <workItem from="1575385712743" duration="3656000" />
+      <workItem from="1576763904651" duration="692000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

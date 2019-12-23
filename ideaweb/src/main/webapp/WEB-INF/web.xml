@@ -12,7 +12,7 @@
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>
-            classpath:spring/applicationContext*.xml,
+            classpath:spring/applicationContext*.xml,classpath*:spring/spring-mybatis.xml
         </param-value>
     </context-param>
 
@@ -21,22 +21,6 @@
             org.springframework.web.context.ContextLoaderListener
         </listener-class>
     </listener>
-
-    <!-- 过滤器 -->
-    <filter>
-        <description>字符集过滤器</description>
-        <filter-name>encodingFilter</filter-name>
-        <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
-        <init-param>
-            <description>字符集编码</description>
-            <param-name>encoding</param-name>
-            <param-value>UTF-8</param-value>
-        </init-param>
-    </filter>
-    <filter-mapping>
-        <filter-name>encodingFilter</filter-name>
-        <url-pattern>/*</url-pattern>
-    </filter-mapping>
 
     <!-- DispatcherServlet  servlet-name要和spring主文件的名字一样-->
     <!-- 	spring主文件在 /WEB-INF ideaweb-servlet.xml -->
