@@ -10,7 +10,8 @@
 
     <!-- 给类一个短名字 -->
     <typeAliases>
-        <typeAlias alias="student" type="com.hz.ideaweb.model.Student" />
+            <typeAlias alias="student" type="com.hz.ideaweb.model.Student" />
+<!--        <typeAlias alias="user" type="com.hz.ideaweb.model.User" />-->
        <!-- <typeAlias alias="scores" type="com.hz.ideaweb.model.Scores" />-->
     </typeAliases>
 
@@ -18,7 +19,8 @@
 
     <!-- 这里一定要写对 -->
     <mappers>
-        <mapper resource="mybatis/mapper_student.xml" />
+        <mapper resource="mybatis/mapping/mapper_user.xml" />
+        <mapper resource="mybatis/mapping/mapper_student.xml" />
     </mappers>
 
 </configuration>

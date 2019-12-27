@@ -47,4 +47,14 @@
         <property name="basePackage" value="com.hz.ideaweb.dao"></property>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
     </bean>
+
+    <!-- 定义事务管理器（声明式的事务） -->
+    <!--DataSourceTransactionManager 是JDBC事务，还有HibernateTransactionManager，
+      JpaTransactionManager，JtaTransactionManager-->
+    <bean name="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!-- 使用annotation开启对注解的支持 -->
+    <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true" />
 </beans>
