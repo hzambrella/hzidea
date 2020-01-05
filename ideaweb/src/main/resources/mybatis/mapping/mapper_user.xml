@@ -184,7 +184,8 @@
   </resultMap>
 
   <select id="selectNextPWDLogId" resultType="java.lang.Integer" >
-     SELECT ifnull(max(logid),0)+1 as num FROM user_pwd_change_log;
+--      SELECT ifnull(max(logid),0)+1 as num FROM user_pwd_change_log for update;
+    SELECT ifnull(max(logid),0)+1 as num FROM user_pwd_change_log
   </select>
 
   <insert id="insertPwdChangeLog" parameterType="com.hz.ideaweb.model.UserPwdChangeLog" >

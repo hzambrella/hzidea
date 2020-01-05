@@ -19,6 +19,8 @@ public class Result<T> implements Serializable {
     private T obj; // 结果对象消息封装
 
     public static int Success=0;
+    public static int SERVERERR=500;
+    public static int DBERROR=9000;
 
     public T getObj() {
         return obj;

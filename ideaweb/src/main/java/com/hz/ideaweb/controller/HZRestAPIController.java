@@ -14,7 +14,7 @@ import javax.annotation.Resource;
 
 @RestController
 @RequestMapping("/test")
-public class HZRestAPIController {
+public class HZRestAPIController extends BaseController{
 
     @Resource(name="StudentService")
     IStudentService studentService;
@@ -24,6 +24,7 @@ public class HZRestAPIController {
     //http://localhost:8085/ideaweb/test/ceshi
     @RequestMapping("/ceshi")
     public String ceshi(){
+        System.out.println("ceshi");
         Student student=studentService.getStudentInfo(1);
         Result<Student> result=new Result<>(Result.Success,true,"",student);
         return JSON.toJSONString(result);
@@ -33,6 +34,7 @@ public class HZRestAPIController {
     public String ceshiTx(@RequestParam(value="userid")Integer userId,
                            @RequestParam(value="pwd")String pwd){
         Result<Object>result=new Result<>();
+
          if(userService.changeUserPWD(userId,pwd)){
              return JSON.toJSONString(result);
          }else{
@@ -41,5 +43,16 @@ public class HZRestAPIController {
          }
     }
 
+    //http://localhost:8085/ideaweb/test/reset?userid=114
+    @RequestMapping("/reset")
+    public String ceshiReset(@RequestParam(value="userid")Integer userId){
+        Result<Object>result=new Result<>();
+        if(userService.resetUserPWD(userId)){
+            return JSON.toJSONString(result);
+        }else{
+            result.setSuccess(false);
+            return JSON.toJSONString(result);
+        }
+    }
 
 }

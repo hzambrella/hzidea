@@ -7,27 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ff46367-3171-477f-9ff5-73b0a2cf567b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../idea-java/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../idea-java/src/com/ideahz/TestFloat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/model/UserPwdChangeLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/server/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/server/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapping/mapper_user.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../idea-java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../idea-java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../idea-java/out/production/idea-java/com/ideahz/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../idea-java/out/production/idea-java/com/ideahz/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/aop/ControllerAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/aop/ServiceAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ideaweb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ideaweb_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/controller/HZRestAPIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/controller/HZRestAPIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/dao/ActorMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/model/Actor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/generatorConfig_mysql.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/generatorConfig_mysql.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper_student.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapping/mapper_student.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapping/ActorMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/dto/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/dto/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/server/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/server/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/server/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/server/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapping/mapper_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapping/mapper_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/sql/DDL.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/DDL.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ideaweb-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ideaweb-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -295,6 +290,9 @@
       <workItem from="1577286209286" duration="118000" />
       <workItem from="1577286577993" duration="50000" />
       <workItem from="1577456580037" duration="7730000" />
+      <workItem from="1577597832825" duration="5639000" />
+      <workItem from="1577626381502" duration="2934000" />
+      <workItem from="1578227354477" duration="6804000" />
     </task>
     <servers />
   </component>
