@@ -7,19 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ff46367-3171-477f-9ff5-73b0a2cf567b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hello.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/test.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/hello.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ideaweb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ideaweb_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/aop/ServiceAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/aop/ServiceAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/errors/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ideaweb-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ideaweb-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -295,7 +283,7 @@
       <workItem from="1577597832825" duration="5639000" />
       <workItem from="1577626381502" duration="2934000" />
       <workItem from="1578227354477" duration="6804000" />
-      <workItem from="1578319769873" duration="6773000" />
+      <workItem from="1578319769873" duration="6974000" />
     </task>
     <servers />
   </component>
