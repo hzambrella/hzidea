@@ -7,22 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ff46367-3171-477f-9ff5-73b0a2cf567b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/aop/ControllerAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/aop/ServiceAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hello.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/test.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/hello.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/ideaweb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ideaweb_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/controller/HZRestAPIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/controller/HZRestAPIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/dto/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/dto/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/server/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/server/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/server/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/server/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapping/mapper_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapping/mapper_user.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/DDL.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/DDL.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/aop/ServiceAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hz/ideaweb/aop/ServiceAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/errors/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ideaweb-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ideaweb-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,14 +90,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../idea-java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/images" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\jp_idea\ideaweb\src\main\webapp\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\jp_idea\ideaweb\src\main\webapp\error" />
+      <recent name="F:\jp_idea\ideaweb\src\main\webapp" />
       <recent name="F:\jp_idea\ideaweb\src\main\resources\mybatis\mapping" />
       <recent name="F:\idea-jp\ideaweb\src\main\resources\spring" />
       <recent name="F:\idea-jp\ideaweb\src\main\java\web" />
@@ -293,6 +295,7 @@
       <workItem from="1577597832825" duration="5639000" />
       <workItem from="1577626381502" duration="2934000" />
       <workItem from="1578227354477" duration="6804000" />
+      <workItem from="1578319769873" duration="6773000" />
     </task>
     <servers />
   </component>
