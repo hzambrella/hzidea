@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+    http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         id="WebApp_ID" version="2.5">
+
+    <display-name>research</display-name>
+
+    <!-- 设定Spring的根上下文 -->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>
+            classpath:spring/applicationContext*.xml,classpath*:spring/spring-mybatis.xml
+        </param-value>
+    </context-param>
+
+    <listener>
+        <listener-class>
+            org.springframework.web.context.ContextLoaderListener
+        </listener-class>
+    </listener>
+
+    <!-- DispatcherServlet  servlet-name要和spring主文件的名字一样-->
+    <!-- 	spring主文件在 /WEB-INF research-servlet.xml -->
+    <servlet>
+        <description>DispatcherServlet springMVC的基石</description>
+        <servlet-name>research</servlet-name>
+        <servlet-class>
+            org.springframework.web.servlet.DispatcherServlet
+        </servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>WEB-INF/research-servlet.xml</param-value>
+            <!--这里我看的视屏教程里，classpath：WEB-INF/dispatcher-servlet.xml，他是这样干的，他用的是eclipse，
+            若我这样干，就错了，因为用classpath时，dispatcher-servlet.xml就要放到src目录下，否则就报错了-->
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>research</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+
+    <!--log4j-->
+    <!-- 设置根目录 -->
+    <!--关于log4j的相关配置-->
+    <context-param>
+        <param-name>log4jConfigLocation</param-name>
+        <param-value>classpath:properties/log4j.properties</param-value>
+    </context-param>
+    <!--加载log4j配置文件-->
+    <listener>
+        <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
+    </listener>
+    <!--404-->
+    <error-page>
+        <error-code>404</error-code>
+        <location>/errors/404.html</location>
+    </error-page>
+</web-app>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <settings>
+        <!--打印sql语句,調試時候用-->
+        <setting name="logImpl" value="STDOUT_LOGGING" />
+    </settings>
+
+    <!-- 给类一个短名字 -->
+    <typeAliases>
+            <typeAlias alias="student" type="com.hz.research.model.Student" />
+<!--        <typeAlias alias="user" type="com.hz.research.model.User" />-->
+       <!-- <typeAlias alias="scores" type="com.hz.research.model.Scores" />-->
+    </typeAliases>
+
+    <!-- dataSource和enviroment就不需要了,在spring配置文件中的DataSource已经有了 -->
+
+    <!-- 这里一定要写对 -->
+    <mappers>
+        <mapper resource="mybatis/mapping/mapper_user.xml" />
+        <mapper resource="mybatis/mapping/mapper_student.xml" />
+    </mappers>
+
+</configuration>

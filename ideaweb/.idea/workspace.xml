@@ -1,13 +1,258 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="ideaweb:war exploded" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ff46367-3171-477f-9ff5-73b0a2cf567b" name="Default Changelist" comment="">
+    <list default="true" id="43d09391-1874-4cc4-881a-88d80548a3fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../dubbostart/dubbo-api/src/main/java/com/hz/jdkspi/JdkSpiTestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbostart/dubbo-api/src/main/java/com/hz/jdkspi/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbostart/dubbo-api/src/main/java/com/hz/jdkspi/Log4j.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbostart/dubbo-api/src/main/java/com/hz/jdkspi/Logback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../idea-java/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../idea-java/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../idea-java/src/com/ideahz/websocket/MyWebSocketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../idea-java/src/com/thread/SycnKechongru.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../idea-java/src/com/thread/SycnKechongruChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ideaweb_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ideaweb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_49.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_6_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/artifacts/lodop_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/artifacts/lodop_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__com_alibaba_fastjson_1_2_49.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__commons_pool_commons_pool_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_6_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_springframework_spring_aop_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_springframework_spring_beans_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_springframework_spring_context_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_springframework_spring_context_support_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_springframework_spring_core_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_springframework_spring_expression_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_springframework_spring_oxm_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_springframework_spring_test_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_springframework_spring_tx_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_springframework_spring_web_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/lodop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/java/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/java/.idea/java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/java/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/java/com/hz/lodop/aop/ServiceAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/java/com/hz/lodop/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/java/com/hz/lodop/dto/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/resources/mybatis/generatorConfig_mysql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/resources/mybatis/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/resources/properties/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/resources/properties/mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/resources/spring/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/resources/spring/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/resources/sql/DDL.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/webapp/WEB-INF/lodop-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/webapp/css/app.a01318f8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/webapp/errors/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/webapp/errors/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/webapp/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/webapp/img/logo.82b9c7a5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/webapp/js/app.dffce7cb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/webapp/js/app.dffce7cb.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/webapp/js/chunk-vendors.327f60f7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodop/src/main/webapp/js/chunk-vendors.327f60f7.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lodopexample/lodopexample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/artifacts/research_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/artifacts/research_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__commons_pool_commons_pool_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__javax_websocket_javax_websocket_api_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_java_websocket_Java_WebSocket_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_6_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_springframework_spring_aop_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_springframework_spring_beans_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_springframework_spring_context_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_springframework_spring_context_support_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_springframework_spring_core_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_springframework_spring_expression_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_springframework_spring_oxm_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_springframework_spring_test_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_springframework_spring_tx_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_springframework_spring_web_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/libraries/Maven__org_springframework_spring_websocket_5_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/research.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/.idea/java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/aop/ControllerAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/aop/ServiceAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/controller/HZRestAPIController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/controller/MyWebSocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/controller/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/controller/WebSocketHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/dao/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/dto/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/model/Scores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/model/UserPwdChangeLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/model/WebSocketMapUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/server/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/server/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/server/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/java/com/hz/research/server/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/resources/mybatis/generatorConfig_mysql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/resources/mybatis/mapping/mapper_student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/resources/mybatis/mapping/mapper_user.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/resources/mybatis/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/resources/properties/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/resources/properties/mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/resources/spring/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/resources/spring/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/resources/sql/DDL.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/webapp/WEB-INF/research-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/webapp/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/webapp/errors/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/webapp/images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/webapp/images/hello.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/webapp/images/test.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/webapp/js/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../research/src/main/webapp/message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/com/hz/Java8/Java8Lamla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/com/hz/Java8/Java8Stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/com/hz/annotion/MyAnnotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/com/hz/annotion/PojoTestAnnotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/com/hz/pojo/PojoA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/com/hz/pojo/PojoC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/com/hz/pojo/PojoD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/com/hz/proxy/Caculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/com/hz/proxy/LogCglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/com/hz/proxy/MyCaculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/com/hz/proxy/MyCaculatorSub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/com/hz/spring/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/com/hz/spring/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/springboot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/hz/springboot/SpringbootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/hz/springboot/config/CustomSpringConfigurator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/hz/springboot/config/WebSocketConfigurator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/hz/springboot/config/webSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/hz/springboot/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/hz/springboot/service/DBService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/hz/springboot/service/DBServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/hz/springboot/service/WebSocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/resources/templates/websocket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbostart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbostart/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../idea-java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../idea-java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../idea-java/idea-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../idea-java/idea-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ideaweb_Web_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ideaweb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ideaweb_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,86 +260,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="ideaweb" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="FxmlFile" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="E:\maven_repository" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1U0CFKNygmKe35UZwHmCkS7ys1M" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1eluks3EjqJ2ga71710T1ivvUI4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/images" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\jp_idea\ideaweb\src\main\webapp\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\jp_idea\ideaweb\src\main\webapp\error" />
-      <recent name="F:\jp_idea\ideaweb\src\main\webapp" />
-      <recent name="F:\jp_idea\ideaweb\src\main\resources\mybatis\mapping" />
-      <recent name="F:\idea-jp\ideaweb\src\main\resources\spring" />
-      <recent name="F:\idea-jp\ideaweb\src\main\java\web" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -108,182 +285,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Tomcat 7.0.82" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8085/ideaweb/" />
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
-      <deployment>
-        <artifact name="ideaweb:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/ideaweb" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_82_ideaweb" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="58540" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="ideaweb:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <deployment>
-        <artifact name="ideaweb:Web exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_ideaweb" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="58540" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="ideaweb:Web exploded" />
-        </option>
-      </method>
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2ff46367-3171-477f-9ff5-73b0a2cf567b" name="Default Changelist" comment="" />
-      <created>1574484020666</created>
+      <changelist id="43d09391-1874-4cc4-881a-88d80548a3fa" name="Default Changelist" comment="" />
+      <created>1594908646514</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574484020666</updated>
-      <workItem from="1574484026222" duration="2595000" />
-      <workItem from="1574486714364" duration="5755000" />
-      <workItem from="1575294615381" duration="1897000" />
-      <workItem from="1575300301774" duration="1860000" />
-      <workItem from="1575384695164" duration="81000" />
-      <workItem from="1576763945283" duration="10305000" />
-      <workItem from="1577027055657" duration="5260000" />
-      <workItem from="1577113373844" duration="3878000" />
-      <workItem from="1577286209286" duration="118000" />
-      <workItem from="1577286577993" duration="50000" />
-      <workItem from="1577456580037" duration="7730000" />
-      <workItem from="1577597832825" duration="5639000" />
-      <workItem from="1577626381502" duration="2934000" />
-      <workItem from="1578227354477" duration="6804000" />
-      <workItem from="1578319769873" duration="6974000" />
+      <updated>1594908646514</updated>
+      <workItem from="1594908651820" duration="8000" />
+      <workItem from="1602058593449" duration="5313000" />
+      <workItem from="1602145184549" duration="1941000" />
+      <workItem from="1602311295554" duration="607000" />
+      <workItem from="1603810106190" duration="599000" />
+      <workItem from="1603987037364" duration="492000" />
     </task>
     <servers />
   </component>
@@ -302,8 +319,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
